@@ -24,6 +24,10 @@ header {
   	header {
   		flex-direction: column;
   	}
+
+  	#nav-links {
+  		text-align: center;
+  	}
 }
 
 #nav-name {
@@ -33,7 +37,7 @@ header {
 #nav-links {
 	flex: 1;
 	justify-content: space-between;
-	max-width: 200px;
+	max-width: 400px;
 	text-align: right;
 }
 
@@ -41,6 +45,7 @@ header {
 	font-size: 16px;
 	color: white;
 	text-decoration: none;
+	margin: 0 10px;
 }
 
 #nav-links a.active {
