@@ -3,7 +3,7 @@ html {
 }	
 
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 #top-bar {
@@ -23,13 +23,11 @@ body {
 }
 
 #my-intro p {
-	font-family: "Montserrat";
 	line-height: 150%;
 	font-size: 15px;
 }
 
 #my-intro h1 {
-	font-family: "Montserrat"
 	font-size: 48px;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -74,12 +72,14 @@ body {
 	letter-spacing: .5px;
 }
 
-#gallery-description p{
-	font-size: 18px;
+#project-info {
 	max-width: 600px;
-	text-align: center;
+	text-align: left;
+	font-weight: 100 !important;
 	margin: auto;
 	padding-bottom: 20px;
+	line-height: 1.5em;
+	font-size: 20px;
 }
 
 #hide-project-info, #show-project-info {
