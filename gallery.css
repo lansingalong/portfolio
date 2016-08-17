@@ -125,7 +125,12 @@ body {
 .navigation{
 	max-width: 100vw;
 	margin-top: 20px;
+	margin: auto;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
 }
 
 .navigation a {
@@ -135,6 +140,7 @@ body {
 	display: inline-block;
 	color: #737373;
 	text-decoration: none;
+	flex: 1;
 }
 
 .gallery-image, .gallery-custom_html {
@@ -145,4 +151,5 @@ body {
 #all-projects-button {
 	color: #737373;
 	text-decoration: none;
+	flex: 2;
 }
