@@ -1,0 +1,13 @@
+{
+    "title": "Fine Arts",
+    "description": "Stationary, poster and pattern set prints for fun. Academic drawings.",
+    "images": [
+        "assets/gallery-images/prints/succulent.png",
+        "assets/gallery-images/prints/bike_poster.jpg",
+        "assets/gallery-images/prints/patternset.png",
+        "assets/gallery-images/prints/screenprint.png",
+        "assets/gallery-images/fine_arts/drawing_03.jpg",
+        "assets/gallery-images/fine_arts/drawing_02.jpg",
+        "assets/gallery-images/fine_arts/drawing_01.jpg"
+    ]
+}

@@ -6,12 +6,25 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
 	    <style media="screen">
+      /*.grid-item {
+        width: 500px;
+      }*/
+
+      /* clear fix */
+	.grid:after {
+	  content: '';
+	  display: block;
+	  clear: both;
+	}
+
+      .grid-sizer,
       .grid-item {
-        width: 300px;
+        width: 33.333%;
       }
 
-      img {
-        border: 1px solid red;
+      .grid-item img {
+        display: block;
+        max-width: 100%;
       }
 
       section {
@@ -22,7 +35,7 @@
 
       .grid {
         flex: 1;
-        max-width: 960px;
+        /*max-width: 1260px;*/
       }
     </style>
 </head>
@@ -30,84 +43,72 @@
 		<header>LANSING CAI</header>
 		<section>
 		<div class="grid">
+		<div class="grid-sizer"></div>
+		<a href="gallery.html?id=13">
+        	<div class="grid-item">
+          	<img src="thumbnails/arrn.png">
+       	 	</div>
+    	</a>
+    	<a href="gallery.html?id=12">
         <div class="grid-item">
-          <img src="http://placehold.it/300x381">
+          <img src="thumbnails/EFNEP.jpg">
         </div>
-        <div class="grid-item grid-item">
-          <img src="http://placehold.it/300x384">
-        </div>
+        </a>
+        <a href="gallery.html?id=11">
         <div class="grid-item">
-          <img src="http://placehold.it/300x463">
+          <img src="thumbnails/st.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=10">
         <div class="grid-item">
-          <img src="http://placehold.it/300x368">
+          <img src="thumbnails/dl.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=9">
         <div class="grid-item">
-          <img src="http://placehold.it/300x316">
+          <img src="thumbnails/platelist2.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=8">
         <div class="grid-item">
-          <img src="http://placehold.it/300x386">
+          <img src="thumbnails/illustrations.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=7">
         <div class="grid-item">
-          <img src="http://placehold.it/300x300">
+          <img src="thumbnails/stitched.png">
         </div>
+        </a>
+        <a href="gallery.html?id=6">
         <div class="grid-item">
-          <img src="http://placehold.it/300x604">
+          <img src="thumbnails/figment.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=5">
         <div class="grid-item">
-          <img src="http://placehold.it/300x436">
+          <img src="thumbnails/celia.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=4">
         <div class="grid-item">
-          <img src="http://placehold.it/300x314">
+          <img src="thumbnails/axon1.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=3">
         <div class="grid-item">
-          <img src="http://placehold.it/300x264">
+          <img src="thumbnails/glow.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=2">
         <div class="grid-item">
-          <img src="http://placehold.it/300x436">
+          <img src="thumbnails/edible.jpg">
         </div>
+        </a>
+        <a href="gallery.html?id=1">
         <div class="grid-item">
-          <img src="http://placehold.it/300x314">
+          <img src="thumbnails/screen.jpg">
         </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x264">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x436">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x314">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x264">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x436">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x314">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x264">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x436">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x314">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x264">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x436">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x314">
-        </div>
-        <div class="grid-item">
-          <img src="http://placehold.it/300x264">
-        </div>
+        </a>
 		</section>
 		<footer>footer</footer>
 	    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
