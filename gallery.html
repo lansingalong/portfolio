@@ -38,6 +38,7 @@
 			</a>
 		</div>
 		<script type='text/javascript' src='bower_components/jquery/dist/jquery.min.js'></script>
+		<script type='text/javascript' src='bower_components/hammerjs/hammer.min.js'></script>
 		<script type="text/javascript">
 		
 			$(function(){
@@ -104,6 +105,24 @@
 			} else {
 				$(".next-project-navigation").hide();
 			}
+
+			//hammer.js /gesture stuff goes here - - - 
+			var gallery_page = document.querySelector("body");
+			var hammertime = new Hammer(gallery_page, Hammer.defaults);
+			hammertime.on('swipe', function(gesture) {
+				if (gesture.direction == Hammer.DIRECTION_LEFT) {
+					console.log("left swipe detected")
+					var next_project = $(".next-project-navigation").attr("href");
+					window.location = next_project;
+				}
+
+				if (gesture.direction == Hammer.DIRECTION_RIGHT){
+					console.log("right swipe detected")
+					var last_project = $(".previous-project-navigation").attr("href");
+					window.location = last_project;
+				}
+			});
+
 		</script>
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
