@@ -1,146 +1,207 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Lansing's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lansing's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
-      /*.grid-item {
-        width: 500px;
-      }*/
+    
+    .grid:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    
+    .grid-sizer,
+    .grid-item {
+        width: 33.333%;
+    }
 
-      /* clear fix */
-	.grid:after {
-	  content: '';
-	  display: block;
-	  clear: both;
-	}
-
+    @media (max-width: 700px) {
       .grid-sizer,
       .grid-item {
-        width: 33.333%;
-      }
-
-      .grid-item img {
+          width: 50%;
+      }      
+    }
+    
+    .grid-item img {
         display: block;
         max-width: 100%;
-      }
-
-      section {
+    }
+    
+    section {
         display: flex;
         align-items: center;
         justify-content: center;
-      }
-
-      .grid {
+    }
+    
+    .grid {
         flex: 1;
         /*max-width: 1260px;*/
-      }
+    }
     </style>
 </head>
-	<body>
-		<header>
-			<div id="nav-name">Lansing</div>
-			<div id="nav-links">
-				<a class="active" href="/">Work</a>
-        <a href="/resume">Resum&egrave;</a>
-				<a href="mailto:lansingc418@gmail.com">Contact</a>
-			</div>
-		</header>
-		<section>
-		<div class="grid effect-4">
-		<div class="grid-sizer"></div>
-		<a href="gallery.html?id=13">
-        	<div class="grid-item">
-          	<img src="thumbnails/arrn.png">
-       	 	</div>
-    	</a>
-    	<a href="gallery.html?id=12">
-        <div class="grid-item">
-          <img src="thumbnails/lo.jpg">
+
+<body>
+    <header>
+        <div id="nav-name">Lansing</div>
+        <div id="nav-links">
+            <a class="active" href="/">Work</a>
+            <a href="/resume">Resum&egrave;</a>
+            <a href="mailto:lansingc418@gmail.com">Contact</a>
         </div>
-        </a>
-        <a href="gallery.html?id=11">
-        <div class="grid-item">
-          <img src="thumbnails/st.jpg">
+    </header>
+    <section>
+        <div class="grid effect-4">
+            <div class="grid-sizer"></div>
+            <ul id="thumbnail" class="thumbnail">
+                <li>
+                    <a href="gallery.html?id=17">
+                        <div class="grid-item">
+                            <img src="thumbnails/artificialandnaturalmovie.gif">
+                            <div><span>Artificial Versus Natural</span></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=16">
+                        <div class="grid-item">
+                            <img src="thumbnails/efnepfoodtalk.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=15">
+                        <div class="grid-item">
+                            <img src="thumbnails/Growing.gif">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=14">
+                        <div class="grid-item">
+                            <img src="thumbnails/QuantumWebsite.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=13">
+                        <div class="grid-item">
+                            <img src="thumbnails/figmentwhite.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=12">
+                        <div class="grid-item">
+                            <img src="thumbnails/platelist2.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=11">
+                        <div class="grid-item">
+                            <img src="thumbnails/stitched.png">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=10">
+                        <div class="grid-item">
+                            <img src="thumbnails/efneplogos.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=9">
+                        <div class="grid-item">
+                            <img src="thumbnails/explore.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=8">
+                        <div class="grid-item">
+                            <img src="thumbnails/ugaefnep.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=7">
+                        <div class="grid-item">
+                            <img src="thumbnails/dreamlandposter.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=6">
+                        <div class="grid-item">
+                            <img src="thumbnails/soldier.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=5">
+                        <div class="grid-item">
+                            <img src="thumbnails/celias.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=4">
+                        <div class="grid-item">
+                            <img src="thumbnails/axonwebsite.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=3">
+                        <div class="grid-item">
+                            <img src="thumbnails/ediblelook.jpg">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html?id=2">
+                        <div class="grid-item">
+                            <img src="thumbnails/illustratedlovemusic.jpg">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </section>
+    <footer>
+        <div id="footer-box">
+            <a href="mailto:lansingc418@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://dribbble.com/lansingcai" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            <a href="https://github.com/lansingalong" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/in/lansingcai" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/lansingalong/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
-        </a>
-        <a href="gallery.html?id=10">
-        <div class="grid-item">
-          <img src="thumbnails/dl.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=9">
-        <div class="grid-item">
-          <img src="thumbnails/platelist2.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=8">
-        <div class="grid-item">
-          <img src="thumbnails/illustrations.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=7">
-        <div class="grid-item">
-          <img src="thumbnails/stitched.png">
-        </div>
-        </a>
-        <a href="gallery.html?id=6">
-        <div class="grid-item">
-          <img src="thumbnails/figment.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=5">
-        <div class="grid-item">
-          <img src="thumbnails/celia.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=4">
-        <div class="grid-item">
-          <img src="thumbnails/axon1.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=3">
-        <div class="grid-item">
-          <img src="thumbnails/glow.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=2">
-        <div class="grid-item">
-          <img src="thumbnails/edible.jpg">
-        </div>
-        </a>
-        <a href="gallery.html?id=1">
-        <div class="grid-item">
-          <img src="thumbnails/screen.jpg">
-        </div>
-        </a>
-		</section>
-		<footer>
-			<div id="footer-box">
-				<a href="mailto:lansingc418@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				<a href="https://dribbble.com/lansingcai" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-				<a href="https://github.com/lansingalong" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-				<a href="https://linkedin.com/in/lansingcai" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-				<a href="https://instagram.com/lansingalong/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			</div>
-		</footer>
-	    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-	    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-	    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
-		<script type="text/javascript" src="script.js"></script>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-70829625-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
 
-  ga('create', 'UA-70829625-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-	</body>
 </html>

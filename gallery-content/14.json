@@ -1,9 +1,14 @@
 {
-	"title": "Art of Storytelling",
-	"description": "This poster series tell individual stories and are taken from one of my favorite podcasts, The Memory Palace by Nate Dimeo. They're paired with Ira Glass' \"The Art of Storytelling\", where he explains the two elements of a successful story - an anecdote and a moment of reflection. <br><br> The stories are paired with illustrations of an object or item that was talked about in the stories.Podcast stories can be found at: <a href=\"http://thememorypalace.us\" target=\"_blank\"> thememorypalace.us</a>",
+	"title": "Quantum Bakery Website",
+	"description": "Quantum Bakery is a tech gadget startup and they launched many products on separate landing pages. They wanted to combine them under one umbrella website, so it would be easier to sell their products on one e-commerce site.",
 	"images": [
-		"assets/gallery-images/artof_storytelling/artofstorytelling_01.png",
-		"assets/gallery-images/artof_storytelling/artof_storytelling_02.png",
-		"assets/gallery-images/artof_storytelling/artof_storytelling_03.png"
+		"assets/gallery-images/quantum_bakery_website/QB_Website_Sitemap.jpg",
+		"assets/gallery-images/quantum_bakery_website/Home.png",
+		"assets/gallery-images/quantum_bakery_website/Glow_Headphones.png",
+		"assets/gallery-images/quantum_bakery_website/Figment_VR.png",
+		"assets/gallery-images/quantum_bakery_website/FigmentVR_Product_Purchase.png",
+		"assets/gallery-images/quantum_bakery_website/Glow_Product_Purchase.png",
+		"assets/gallery-images/quantum_bakery_website/Shopping_Cart",
+		"assets/gallery-images/quantum_bakery_website/Team.png"
 	]
 }

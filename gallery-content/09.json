@@ -1,10 +1,10 @@
 {
-	"title": "Platelist",
-	"description": "Platelist is an ongoing mobile app project. I worked on a team and designed the UI of the app, the UX flow, along with illustrations and animations. ",
-	"images": [
-		"assets/gallery-images/platelist/platelist_splash.png",
-		"assets/gallery-images/platelist/platelist_swipe_no.gif",
-		"assets/gallery-images/platelist/platelist_swipe_pref.gif",
-		"assets/gallery-images/platelist/platelist_illustrations.jpg"
-	]
+    "title": "Exploring Taiwan",
+    "description": "I designed a two-page spread that highlights Jiufen, a tourist attraction in the mountains of Keelang, Taiwan. I had the incredible opportunity to visit this mine town in 2015 and understood why Hayao Miyazaki used this as a model for the hit film, Spirited Away. I wanted to capture the liveliness and beauty of this town while combining illustration, typography for the reader to engage in a visually-fun experience as they flip through this magazine.",
+    "images": [
+        "assets/gallery-images/exploring_taiwan/et_01.jpg",
+        "assets/gallery-images/exploring_taiwan/et_02.jpg",
+        "assets/gallery-images/exploring_taiwan/et_03.jpg",
+        "assets/gallery-images/exploring_taiwan/et_04.jpg"
+    ]
 }

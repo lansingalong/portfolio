@@ -1,9 +1,13 @@
 {
-	"title": "Soldier&#8217s Tale",
-	"description": "L&#8217Histoire Du Soldat (The Soldier&#8217s Tale) is a theatrical work about a soldier, devil and violin by Igor Stravinsky and Swiss writer C.F. Ramuz. <br><br> I designed this poster to capture the mood of the piece and advertise an orchestra concert where the piece would be played.",
-	"images": [
-		"assets/gallery-images/soldiers_tale/st_poster.jpg",
-		"assets/gallery-images/soldiers_tale/st_imac.jpg",
-		"assets/gallery-images/soldiers_tale/st_process.jpg"
-	]
+    "title": "Stitched Stories",
+    "description": "Various illustrations in print and digital media.",
+    "images": [
+        "assets/gallery-images/stitched_stories/stitched_00.jpg",
+        "assets/gallery-images/stitched_stories/stitched_2.gif",
+        "assets/gallery-images/stitched_stories/stitched_3.jpg",
+        "assets/gallery-images/stitched_stories/stitched_4.gif",
+        "assets/gallery-images/stitched_stories/wireframe.jpg",
+        "assets/gallery-images/stitched_stories/wireframe_2.jpg"
+
+    ]
 }
