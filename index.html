@@ -9,7 +9,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
-    
     .grid:after {
         content: '';
         display: block;
@@ -21,16 +20,24 @@
         width: 33.333%;
     }
 
+    .grid-item:hover img{
+      z-index: 0;
+    }
+    
     @media (max-width: 700px) {
-      .grid-sizer,
-      .grid-item {
-          width: 50%;
-      }      
+        .grid-sizer,
+        .grid-item {
+            width: 50%;
+        }
     }
     
     .grid-item img {
         display: block;
         max-width: 100%;
+    }
+
+    .grid-item>img:hover + .desc {
+      opacity: 1;
     }
     
     section {
@@ -63,7 +70,9 @@
                     <a href="gallery.html?id=17">
                         <div class="grid-item">
                             <img src="thumbnails/artificialandnaturalmovie.gif">
-                            <div><span>Artificial Versus Natural</span></div>
+                            <div class="desc" style="background: rgba(236, 69, 109, 0.8);">
+                                <span>Artificial VS Natural</span>
+                            </div>
                         </div>
                     </a>
                 </li>
@@ -71,6 +80,9 @@
                     <a href="gallery.html?id=16">
                         <div class="grid-item">
                             <img src="thumbnails/efnepfoodtalk.jpg">
+                            <div class="desc" style="background: rgba(252, 220, 255, 0.8);">
+                                <span>efersklu Versus Natural</span>
+                            </div>
                         </div>
                     </a>
                 </li>
