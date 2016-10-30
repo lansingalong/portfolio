@@ -1,10 +1,14 @@
 {
-	"title": "EFNEP Educational Material Design",
-	"description": "The Expanded Food and Nutrition Education Program (EFNEP) is a federally-funded non-profit outreach program that offers nutrition education to limited-resource families and children in all 50 states and U.S. territories. <br><br> I started designing for EFNEP in February 2016, and my first big project was conceptualizing and developing a brand identity for their annual conference held in April. I consistently focused on developing a guideline through the different programs and classes they would have at the conference, and worked directly with the program coordinators. <br><br> In late June, I worked with the program coordinators to rebrand EFNEP’s program, focusing on EFNEP’s four core areas: diet quality, food resource management, household food safety, and food security. My focus was to have a cohesion across all platforms including websites, social media, and print while telling EFNEP’s story in a visual way.",
+	"title": "Quantum Bakery Website",
+	"description": "Quantum Bakery is a tech gadget startup and they launched many products on separate landing pages. They wanted to combine them under one umbrella website, so it would be easier to sell their products on one e-commerce site.",
 	"images": [
-		"assets/gallery-images/EFNEP/IC_03.jpg",
-		"assets/gallery-images/EFNEP/IC_02.jpg",
-		"assets/gallery-images/EFNEP/Conference_01.jpg",
-		"assets/gallery-images/EFNEP/Photo_Booth_01.jpg",
+		"assets/gallery-images/quantum_bakery_website/QB_Website_Sitemap.jpg",
+		"assets/gallery-images/quantum_bakery_website/Home.png",
+		"assets/gallery-images/quantum_bakery_website/Glow_Headphones.png",
+		"assets/gallery-images/quantum_bakery_website/Figment_VR.png",
+		"assets/gallery-images/quantum_bakery_website/FigmentVR_Product_Purchase.png",
+		"assets/gallery-images/quantum_bakery_website/Glow_Product_Purchase.png",
+		"assets/gallery-images/quantum_bakery_website/Shopping_Cart",
+		"assets/gallery-images/quantum_bakery_website/Team.png"
 	]
 }
