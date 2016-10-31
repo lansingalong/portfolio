@@ -157,7 +157,12 @@ footer a {
 	color: white;
 	cursor: pointer;
 	transform: scale(1.1, 1.1);
+}
 
+#nav-filter a.active{
+	background: red;
+	color: white;
+	transform: scale(1.1, 1.1);
 }
 
 @media max-width: 700px {

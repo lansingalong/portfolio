@@ -33,12 +33,20 @@ function getCategory() {
 	}
 }
 
+function updateActiveTab(){
+	$("#nav-filter a").removeClass("active");
+	$("#nav-filter a[href='#" + getCategory() + "']").addClass("active");
+}
+
 $(function() {
 	makeMosaicLayout();
+	updateActiveTab();
 });
 
 window.onhashchange = function() {
 	$grid.isotope({
 		filter: ".category-" + getCategory()
 	});
+
+	updateActiveTab();
 }
