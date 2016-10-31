@@ -1,12 +1,10 @@
 {
-	"title": "Figment VR App",
-	"description": "Figment VR is a product that allows you to immerse in virtual reality practically anywhere because it fits right inside your pocket. The Figment VR App lets the user view and share 360 degree photos from their mobile device.",
+	"title": "EFNEP Education Material",
+	"description": "The Expanded Food and Nutrition Education Program (EFNEP) is a federally-funded non-profit outreach program that offers nutrition education to limited-resource families and children in all 50 states and U.S. territories.",
 	"images": [
-		"assets/gallery-images/figment_vr/Lifestyle_White.jpg",
-		"assets/gallery-images/figment_vr/Figment_bw_1.jpg",
-		"assets/gallery-images/figment_vr/White_3.gif",
-		"assets/gallery-images/figment_vr/share_app_splash.gif",
-		"assets/gallery-images/figment_vr/share_app_01.gif",
-		"assets/gallery-images/figment_vr/share_app_02.gif"
-	]
+		"assets/gallery-images/EFNEP/iron_chef_1.jpg",
+		"assets/gallery-images/EFNEP/cuttingboards.jpg",
+		"assets/gallery-images/EFNEP/Photo_Booth_01.jpg",
+		"assets/gallery-images/EFNEP/EFNEPbook.jpg"
+]
 }

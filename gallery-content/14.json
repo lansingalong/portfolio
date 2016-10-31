@@ -1,10 +1,9 @@
 {
-	"title": "EFNEP Education Material",
-	"description": "The Expanded Food and Nutrition Education Program (EFNEP) is a federally-funded non-profit outreach program that offers nutrition education to limited-resource families and children in all 50 states and U.S. territories.",
+	"title": "GIFs",
+	"description": "This is an ongoing side project where I focus on a new technique in After Effects each week and build on top of it with a new technique the following week. I use video tutorials such as those on lynda.com, greyscalegorilla, and YouTube. By the end of 6 months, ideally I will have a strong grasp of basic animation techniques and motions as explained by <a href=\"http://www.frankanollie.com/PhysicalAnimation.html\" target=\"_blank\">Frank and Ollie.</a>",
 	"images": [
-		"assets/gallery-images/EFNEP/iron_chef_1.jpg",
-		"assets/gallery-images/EFNEP/cuttingboards.jpg",
-		"assets/gallery-images/EFNEP/Photo_Booth_01.jpg",
-		"assets/gallery-images/EFNEP/EFNEPbook.jpg"
-]
+		"assets/gallery-images/mograph/Growing.gif",
+		"assets/gallery-images/mograph/RAINRAIN.gif",
+		"assets/gallery-images/mograph/flowerpower.gif"
+	]
 }

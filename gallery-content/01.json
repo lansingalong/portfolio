@@ -1,7 +1,17 @@
 {
-    "title": "EFNEP Website",
-    "description": "Website.",
+    "title": "Illustrations",
+    "description": "Various illustrations in print and digital media.",
     "images": [
-        "assets/gallery-images/how_to_guide/how_to_find_01.png"
+        "assets/gallery-images/illustrations/illustrative_work_doodle.png",
+        "assets/gallery-images/illustrations/vignette.jpg",
+        "assets/gallery-images/illustrations/storybooks.gif",
+        "assets/gallery-images/calendar/calendar.png",
+        "assets/gallery-images/calendar/mo.png",
+        "assets/gallery-images/prints/succulent.png",
+        "assets/gallery-images/prints/bike_poster.jpg",
+        "assets/gallery-images/prints/patternset.png",
+        "assets/gallery-images/prints/screenprint.png"
+
     ]
+
 }

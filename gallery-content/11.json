@@ -1,13 +1,10 @@
 {
-    "title": "Stitched Stories",
-    "description": "Stitched Stories is an accompany app made for an exhibition held at the Georgia Museum of Art in early 2016. <br>The goal was to learn about stories behind embroidered pieces showcased at the museum while learning how to create DIY crafts. <br> The lens is domestic empowerment, understanding the difference between duty and choice for the girls who embroidered these pieces. <br> The audience is stroller club, men or women with kids in strollers, and the audience value was community building, DIY craft, educational purposes (for the parent and child), as well as understanding history. <br> The three concepts that were chosen were community building, education, and creating and developing.",
+    "title": "Platelist",
+    "description": "Platelist is an ongoing mobile app project. I worked on a team and designed the UI of the app, the UX flow, along with illustrations and animations. ",
     "images": [
-        "assets/gallery-images/stitched_stories/stitched_00.jpg",
-        "assets/gallery-images/stitched_stories/stitched_2.gif",
-        "assets/gallery-images/stitched_stories/stitched_3.jpg",
-        "assets/gallery-images/stitched_stories/stitched_4.gif",
-        "assets/gallery-images/stitched_stories/wireframe.jpg",
-        "assets/gallery-images/stitched_stories/wireframe_2.jpg"
-
+        "assets/gallery-images/platelist/platelist_splash.png",
+        "assets/gallery-images/platelist/platelist_swipe_no.gif",
+        "assets/gallery-images/platelist/platelist_swipe_pref.gif",
+        "assets/gallery-images/platelist/platelist_illustrations.jpg"
     ]
 }

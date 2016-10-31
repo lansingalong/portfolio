@@ -1,9 +1,10 @@
 {
-	"title": "EFNEP Website",
-	"description": "EFNEP website.",
-	"images": [
-		"assets/gallery-images/EFNEP/website_mockup0.jpg",
-		"assets/gallery-images/EFNEP/website_mockup2.jpg",
-		"assets/gallery-images/EFNEP/website_mockup3.jpg"
-]
+    "title": "Exploring Taiwan",
+    "description": "I designed a two-page spread that highlights Jiufen, a tourist attraction in the mountains of Keelang, Taiwan. I had the incredible opportunity to visit this mine town in 2015 and understood why Hayao Miyazaki used this as a model for the hit film, Spirited Away. I wanted to capture the liveliness and beauty of this town while combining illustration, typography for the reader to engage in a visually-fun experience as they flip through this magazine.",
+    "images": [
+        "assets/gallery-images/exploring_taiwan/et_01.jpg",
+        "assets/gallery-images/exploring_taiwan/et_02.jpg",
+        "assets/gallery-images/exploring_taiwan/et_03.jpg",
+        "assets/gallery-images/exploring_taiwan/et_04.jpg"
+    ]
 }

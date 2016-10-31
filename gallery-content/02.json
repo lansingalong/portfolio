@@ -1,17 +1,13 @@
 {
-    "title": "Illustrations",
-    "description": "Various illustrations in print and digital media.",
+    "title": "How to Find Edible Wild Plants",
+    "description": " I designed a guide that would help people understand the different types of wild plants for foraging. The guide starts from places like your lawn and travel to places like the woods and forests.",
     "images": [
-        "assets/gallery-images/illustrations/illustrative_work_doodle.png",
-        "assets/gallery-images/illustrations/vignette.jpg",
-        "assets/gallery-images/illustrations/storybooks.gif",
-        "assets/gallery-images/calendar/calendar.png",
-        "assets/gallery-images/calendar/mo.png",
-        "assets/gallery-images/prints/succulent.png",
-        "assets/gallery-images/prints/bike_poster.jpg",
-        "assets/gallery-images/prints/patternset.png",
-        "assets/gallery-images/prints/screenprint.png"
-
+       "assets/gallery-images/how_to_guide/how_to_find_01.png",
+    "assets/gallery-images/how_to_guide/how_to_find_02.png",
+    "assets/gallery-images/how_to_guide/how_to_find_03.png",
+    "assets/gallery-images/how_to_guide/how_to_find_05.jpg",
+    "assets/gallery-images/how_to_guide/how_to_find_process_01.jpg",
+    "assets/gallery-images/how_to_guide/how_to_find_process_02.jpg"
     ]
 
 }
