@@ -1,7 +1,9 @@
 {
 	"title": "EFNEP Website",
-	"description": "EFNEP website information goes here",
+	"description": "EFNEP website description.",
 	"images": [
-		"assets/gallery-images/glow/glow_skate.jpg",
-	]
+		"assets/gallery-images/EFNEP/website_mockup1.jpg",
+		"assets/gallery-images/EFNEP/website_mockup2.jpg",
+		"assets/gallery-images/EFNEP/website_mockup3.jpg"
+]
 }

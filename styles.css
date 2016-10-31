@@ -10,8 +10,7 @@ header, footer{
 .grid-item-aandn { width: 500px; }
 .grid-item--width2 { width: 400px; }
 
-.grid.effect-4 {
-    -webkit-perspective: 500px; /* Chrome, Safari, Opera */
+.grid.effect-4 { /* Chrome, Safari, Opera */
     perspective: 500px;
 }
 
@@ -29,9 +28,12 @@ header, footer{
 }
 
 header {
+	display: -ms-flexbox !important;
 	display: flex !important;
-	justify-content: center; 
-	align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center; 
+	-ms-flex-align: center; 
+	    align-items: center;
 }
 
 /* Portrait and Landscape */
@@ -40,7 +42,8 @@ header {
   and (max-device-width: 680px)
   and (-webkit-min-device-pixel-ratio: 2) {
   	header {
-  		flex-direction: column;
+  		-ms-flex-direction: column;
+  		    flex-direction: column;
   	}
 
   	#nav-links {
@@ -49,12 +52,15 @@ header {
 }
 
 #nav-name {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 }
 
 #nav-links {
-	flex: 1;
-	justify-content: space-between;
+	-ms-flex: 1;
+	    flex: 1;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
 	max-width: 400px;
 	text-align: right;
 }
@@ -72,16 +78,23 @@ header {
 }
 
 footer {
+	display: -ms-flexbox !important;
 	display: flex !important;
-	align-content: center;
-	justify-content: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
 }
 
 #footer-box {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
+	display: -ms-flexbox !important;
 	display: flex !important;
-	justify-content: space-between;
-	align-items: center;
+	-ms-flex-pack: justify;
+	    justify-content: space-between;
+	-ms-flex-align: center;
+	    align-items: center;
 	max-width: 400px;
 }
 
@@ -103,9 +116,12 @@ footer a {
 	right: 0;
 	bottom: 0;
 	text-align: center;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
 	font-family: "Montserrat";
 	font-size: 2em;
 	color: #fff;
@@ -114,10 +130,14 @@ footer a {
 }
 
 #nav-filter {
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex: 1;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex: 1;
+	    flex: 1;
 	background-color: #eee;
 	font-family: "Montserrat";
 }
@@ -126,7 +146,8 @@ footer a {
 	padding: 20px;
 	text-decoration: none;
 	color: #c0c0c0;
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 	text-align: center;
 	transition: .2s ease-in-out;
 }
@@ -135,6 +156,7 @@ footer a {
 	background: #0088ff;
 	color: white;
 	cursor: pointer;
+	transform: scale(1.1, 1.1);
 
 }
 

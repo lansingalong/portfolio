@@ -73,6 +73,7 @@
 
 			var currentProjectId = parseInt(getUrlParameter("id"));
 			$.getJSON("gallery-content/" + pad(currentProjectId, 2) + ".json", function(data) {
+				console.log(data["title"])
 				$("#project-title").html(data["title"]);
 				$("#project-info").html(data["description"]);
 				if (data["custom_html"]){
@@ -92,7 +93,7 @@
 				}
 			});
 
-			var total_number_of_projects = 13;
+			var total_number_of_projects = 17;
 
 			if (currentProjectId + 1 <= total_number_of_projects) {
 				$(".previous-project-navigation").attr("href", "gallery.html?id=" + (currentProjectId + 1));
