@@ -40,6 +40,9 @@ function updateActiveTab(){
 
 $(function() {
 	makeMosaicLayout();
+	$grid.isotope({
+		filter: ".category-" + getCategory()
+	});
 	updateActiveTab();
 });
 
