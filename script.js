@@ -29,7 +29,7 @@ function getCategory() {
 			return "all";
 		}
 	} else {
-		return "all";
+		return "featured";
 	}
 }
 
