@@ -181,6 +181,10 @@ footer a {
 		padding-left: 0;
 		padding-right: 0; 
 	}
+
+	#nav-filter a.active {
+		transform: none;
+	}
 }
 
 section#projects {
