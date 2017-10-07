@@ -3,10 +3,10 @@
 
 <head>
     <title>Lansing's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
     .grid:after {
@@ -62,19 +62,25 @@
             <a href="mailto:lansingc418@gmail.com">Contact</a>
         </div>
     </header>
-    <section>
+    <section id="nav-section">
         <div id="nav-filter">
             <a href="#all">All</a>
             <a href="#featured">Featured</a>
             <a href="#motion">Motion</a>
-            <a href="#ux">UX/Product</a>
-            <a href="#web">Web</a>
-            <a href="#mobile">Mobile</a>
-            <a href="#illustration">Illustration</a>
+            <a href="#ux">UX</a>
+            <a href="#visual">Visual</a>
         </div>
     </section>
     <section id="projects">
         <div class="grid effect-4">
+            <a href="gallery.html?id=17">
+                <div class="grid-item category-all category-visual category-featured">
+                    <img src="thumbnails/editorialillustrations.png">
+                    <div class="desc" style="background: rgba(204, 0, 0, 0.8);">
+                        <span>CNN Editorial</span>
+                    </div>
+                </div>
+            </a>
             <a href="gallery.html?id=16">
                 <div class="grid-item category-all category-motion category-featured">
                     <img src="thumbnails/artificialandnaturalmovie.gif">
@@ -84,7 +90,7 @@
                 </div>
             </a>
             <a href="gallery.html?id=15">
-                <div class="grid-item category-all category-featured category-ux category-web">
+                <div class="grid-item category-all category-featured category-ux">
                     <img src="thumbnails/QuantumWebsite.jpg">
                     <div class="desc" style="background: rgba(81, 90, 212, 0.8);">
                         <span>Quantum Bakery</span>
@@ -93,46 +99,49 @@
             </a>
             <a href="gallery.html?id=14">
                 <div class="grid-item category-all category-motion category-featured">
-                    <img src="thumbnails/Growing.gif">
+                    <img src="thumbnails/raining.gif">
                     <div class="desc" style="background: rgba(138, 219, 69, 0.8);">
                         <span>GIFs</span>
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=13">
-                <div class="grid-item category-all category-web">
-                    <img src="thumbnails/efnepfoodtalk.jpg">
+                <div class="grid-item category-all category-featured category-visual">
+                    <img src="thumbnails/efnepproject.png">
                     <div class="desc" style="background: rgba(80, 205, 117, 0.8);">
                         <span>EFNEP Project</span>
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=12">
-                <div class="grid-item category-all category-featured category-mobile">
+                <div class="grid-item category-all category-mobile">
                     <img src="thumbnails/figmentwhite.jpg">
                     <div class="desc" style="background: rgba(40, 218, 228, 0.8);">
                         <span>FigmentVR App</span>
                     </div>
                 </div>
             </a>
-            <a href="gallery.html?id=11">
-                <div class="grid-item category-all category-mobile category-ux">
-                    <img src="thumbnails/platelist2.jpg">
-                    <div class="desc" style="background: rgba(255, 141, 130, 0.8);">
-                        <span>PlateList</span>
+
+            <a href="gallery.html?id=18">
+                <div class="grid-item category-all category-motion">
+                    <img src="thumbnails/cnn-discover.png" height="367">
+                    <div class="desc" style="background: rgba(255, 225, 21, 0.8); color: white;">
+                        <span>CNN - Discover Stories</span>
                     </div>
                 </div>
             </a>
+
             <a href="gallery.html?id=10">
-                <div class="grid-item category-all category-mobile category-ux">
+                <div class="disabled grid-item category-all category-mobile category-ux">
                     <img src="thumbnails/stitched.png">
                     <div class="desc" style="background: rgba(0, 132, 224, 0.8);">
-                        <span>Stitched Stories</span>
+                        <span>Stitched Stories</span> 
+        <!-- DONE: **get rid of this** -->
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=9">
-                <div class="grid-item category-all category-featured category-illustration">
+                <div class="grid-item category-all category-visual">
                     <img src="thumbnails/efneplogos.jpg">
                     <div class="desc" style="background: rgba(255, 145, 183, 0.8);">
                         <span>Logos</span>
@@ -140,15 +149,15 @@
                 </div>
             </a>
             <a href="gallery.html?id=8">
-                <div class="grid-item category-all category-illustration">
-                    <img src="thumbnails/explore.jpg">
+                <div class="grid-item category-all category-visual">
+                    <img src="thumbnails/explore.png">
                     <div class="desc" style="background: rgba(230, 125, 32, 0.8);">
                         <span>Exploring Taiwan</span>
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=7">
-                <div class="grid-item category-all category-featured category-web category-ux">
+                <div class="grid-item category-all category-ux">
                     <img src="thumbnails/ugaefnep.jpg">
                     <div class="desc" style="background: rgba(80, 205, 117, 0.8);">
                         <span>EFNEP Website</span>
@@ -156,53 +165,66 @@
                 </div>
             </a>
             <a href="gallery.html?id=6">
-                <div class="grid-item category-all category-illustration">
-                    <img src="thumbnails/dreamlandposter.jpg">
+                <div class="grid-item category-all category-visual">
+                    <img src="thumbnails/dreamland.png">
                     <div class="desc" style="background: rgba(42, 183, 141, 0.8);">
                         <span>Art of Storytelling</span>
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=5">
-                <div class="grid-item category-all category-illustration">
-                    <img src="thumbnails/soldier.jpg">
+                <div class="grid-item category-all category-visual">
+                    <img src="thumbnails/soldier.jpg" height="381">
                     <div class="desc" style="background: rgba(150, 24, 181, 0.8);">
                         <span>Soldier's Tale</span>
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=4">
-                <div class="grid-item category-all category-illustration">
+                <div class="disabled grid-item category-all category-visual">
                     <img src="thumbnails/celias.jpg">
                     <div class="desc" style="background: rgba(243, 154, 35, 0.8);">
                         <span>Branding</span>
+        <!-- DONE: **get rid of this** -->
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=3">
-                <div class="grid-item category-all category-web category-ux">
+                <div class="disabled grid-item category-all category-web category-ux">
                     <img src="thumbnails/axonwebsite.jpg">
                     <div class="desc" style="background: rgba(41, 211, 232, 0.8);">
                         <span>Axon Tutors</span>
+        <!-- DONE: **get rid of this** -->
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=2">
-                <div class="grid-item category-all category-illustration">
+                <div class="disabled grid-item category-all category-visual">
                     <img src="thumbnails/ediblelook.jpg">
                     <div class="desc" style="background: rgba(255, 86, 72, 0.8);">
                         <span>How to Guide</span>
+        <!-- DONE: **get rid of this** -->
                     </div>
                 </div>
             </a>
             <a href="gallery.html?id=1">
-                <div class="grid-item category-all category-illustration">
-                    <img src="thumbnails/illustratedlovemusic.jpg">
+                <div class="grid-item category-all category-visual">
+                    <img src="assets/gallery-images/01_illustrations/guardiansfan.png">
                     <div class="desc" style="background: rgba(255, 17, 55, 0.8);">
                         <span>Illustrations</span>
                     </div>
                 </div>
             </a>
+
+            <a href="gallery.html?id=11">
+                <div class="disabled grid-item category-all category-ux">
+                    <img src="thumbnails/platelist2.jpg">
+                    <div class="desc" style="background: rgba(255, 141, 130, 0.8);">
+                        <span>PlateList</span>
+                    </div>
+                </div>
+            </a>
+
     </section>
     <footer>
         <div id="footer-box">

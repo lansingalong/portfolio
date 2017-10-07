@@ -7,6 +7,12 @@ header, footer{
 	font-family: 'Montserrat', sans-serif;
 }
 
+body{
+	max-width: 1440px;
+	margin: auto;
+
+}
+
 .grid-item-aandn { width: 500px; }
 .grid-item--width2 { width: 400px; }
 
@@ -127,7 +133,6 @@ footer a {
 	color: #fff;
 	background: rgba(0, 0, 0, 0.5);
 	cursor: pointer;
-	border-radius: 5px;
 }
 
 #nav-filter {
@@ -141,9 +146,12 @@ footer a {
 	    flex: 1;
 	background-color: #eee;
 	font-family: "Montserrat";
+	border-radius: 50px;
 }
 
-
+#nav-section {
+	padding: 0 20px;
+}
 
 #nav-filter a{
 	padding: 20px;
@@ -159,16 +167,40 @@ footer a {
 	background: #76bfff;
 	color: white;
 	cursor: pointer;
-	transform: scale(1.1, 1.1);
+}
+
+#nav-filter a:last-child{
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+
+#nav-filter a:first-child{
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
 }
 
 #nav-filter a.active{
 	background: #0088ff;
 	color: white;
-	transform: scale(1.1, 1.1);
+	/*transform: scale(1.1, 1.1);*/
+	/*border-radius: 50px;*/
 }
 
 @media (max-width: 700px) {
+	#nav-filter a:first-child{
+		border-radius: 0;
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
+	}
+
+
+	#nav-filter a:last-child{
+		border-radius: 0;
+		border-bottom-left-radius: 50px;
+		border-bottom-right-radius: 50px;
+	}
+
 	#nav-filter{
 		-ms-flex-direction: column;
 		    flex-direction: column
@@ -189,5 +221,9 @@ footer a {
 
 section#projects {
 	padding: 20px;
+}
+
+.disabled {
+	display: none;
 }
 

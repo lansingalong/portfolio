@@ -2,12 +2,12 @@
 	"title": "Quantum Bakery Website",
 	"description": "Quantum Bakery is a tech gadget startup based in Mountain View, CA. Initially, QB launched their products on separate websites with landing pages. Their goal is to combine them under one umbrella website, so it would be easier to sell their products on one e-commerce site.<br><br>Phase 1 of the project consists of:<br> - Website for Quantum Bakery to combine Glow and Figment under one umbrella webstore. <br> - Design, develop, and deploy QB webstore using Squarespace for US and Aliyun for China. <br> - E-commerce payment functionality with Stripe and tracking of sales. <br> Phase 2 of this project consists of: <br> - Dynamic content and updates including user reviews, customer support plug-ins and forums. <br> <br> The initial site map combined the original landing pages of the individual product's tech specs along with marketing pages into one product page with emphasis on easy buying.",
 	"images": [
-		"assets/gallery-images/quantum_bakery_website/QB_Sitemap.jpg",
-		"assets/gallery-images/quantum_bakery_website/Wireframe(12).jpg",
-		"assets/gallery-images/quantum_bakery_website/Wireframes(34).jpg",
-		"assets/gallery-images/quantum_bakery_website/Wireframes(56).jpg",
-		"assets/gallery-images/quantum_bakery_website/mockup1.jpg",
-		"assets/gallery-images/quantum_bakery_website/mockup3.jpg",
-		"assets/gallery-images/quantum_bakery_website/mockup4.jpg"
+		"assets/gallery-images/15_quantum_bakery_website/QB_Sitemap.jpg",
+		"assets/gallery-images/15_quantum_bakery_website/Wireframe(12).jpg",
+		"assets/gallery-images/15_quantum_bakery_website/Wireframes(34).jpg",
+		"assets/gallery-images/15_quantum_bakery_website/Wireframes(56).jpg",
+		"assets/gallery-images/15_quantum_bakery_website/mockup1.jpg",
+		"assets/gallery-images/15_quantum_bakery_website/mockup3.jpg",
+		"assets/gallery-images/15_quantum_bakery_website/mockup4.jpg"
 	]
 }

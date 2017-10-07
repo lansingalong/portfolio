@@ -23,7 +23,7 @@ function makeMosaicLayout(){
 function getCategory() {
 	hash = window.location.hash.slice(1)
 	if(hash) {
-		if (["all", "featured", "motion", "ux", "web", "mobile", "illustration"].indexOf(hash) > -1) {
+		if (["all", "featured", "motion", "ux", "visual"].indexOf(hash) > -1) {
 			return hash;
 		} else {
 			return "all";

@@ -2,17 +2,19 @@
     "title": "Illustrations",
     "description": "Various illustrations in print and digital media.",
     "images": [
-        "assets/gallery-images/illustrations/purplegreenplants.jpg",
-        "assets/gallery-images/illustrations/illustrative_work_doodle.png",
-        "assets/gallery-images/illustrations/vignette.jpg",
-        "assets/gallery-images/illustrations/storybooks.gif",
-        "assets/gallery-images/calendar/calendar.png",
-        "assets/gallery-images/calendar/mo.png",
-        "assets/gallery-images/prints/succulent.png",
-        "assets/gallery-images/prints/bike_poster.jpg",
-        "assets/gallery-images/prints/patternset.png",
-        "assets/gallery-images/prints/screenprint.png"
+        "assets/gallery-images/01_illustrations/calendar.png",
+        "assets/gallery-images/01_illustrations/calendarfinal.png",
+        "assets/gallery-images/01_illustrations/cactus.png",
+        "assets/gallery-images/01_illustrations/ink.png",
+        "assets/gallery-images/01_illustrations/love.png",
+        "assets/gallery-images/01_illustrations/screenprint.png",
+        "assets/gallery-images/01_illustrations/succulent.png",
+        "assets/gallery-images/01_illustrations/purplegreenplants.jpg",
+        "assets/gallery-images/01_illustrations/livingroom.jpg",
+        "assets/gallery-images/01_illustrations/livingroom_2.jpg",
+        "assets/gallery-images/01_illustrations/storybooks.gif",
+        "assets/gallery-images/01_illustrations/guardiansfan.png",
+        "assets/gallery-images/01_illustrations/abcswip.png"
 
     ]
-
 }

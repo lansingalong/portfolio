@@ -1,0 +1,12 @@
+{
+	"title": "CNN - Discover Stories",
+	"description": "I worked on CNN Digital Team's Snapchat Discovery Project, where I illustrated and animated news stories on a daily basis. The topics included politics, tech, health, and breaking news.",
+	"images": [
+	],
+	"custom_html": [
+		"<iframe src=\"https://player.vimeo.com/video/236670172\" width=\"360\" height=\"640\" style=\"height: 640px !important\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+		"<iframe src=\"https://player.vimeo.com/video/235612619\" width=\"360\" height=\"640\" style=\"height: 640px !important\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+		"<iframe src=\"https://player.vimeo.com/video/235611763\" width=\"360\" height=\"640\" style=\"height: 640px !important\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+		"<iframe src=\"https://player.vimeo.com/video/235556326\" width=\"360\" height=\"640\" style=\"height: 640px !important\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+	]
+}

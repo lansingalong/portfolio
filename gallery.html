@@ -93,18 +93,33 @@
 				}
 			});
 
-			var total_number_of_projects = 16;
+			var total_number_of_projects = 18;
+			var disabled_project_ids = [2, 3, 4, 9, 10, 11];
+			var next_project_id = currentProjectId + 1;
+			var previous_project_id = currentProjectId - 1;
 
-			if (currentProjectId + 1 <= total_number_of_projects) {
-				$(".previous-project-navigation").attr("href", "gallery.html?id=" + (currentProjectId + 1));
-			} else {
-				$(".previous-project-navigation").hide();
-			}
+			disabled_project_ids.forEach(function(disabled_project_id, index) {
+				if (next_project_id == disabled_project_id) {
+					next_project_id += 1;
+				}
+			});
 
-			if (currentProjectId - 1 >= 1) {
-				$(".next-project-navigation").attr("href", "gallery.html?id=" + (currentProjectId - 1));
+			disabled_project_ids.reverse().forEach(function(disabled_project_id, index) {
+				if (previous_project_id == disabled_project_id) {
+					previous_project_id -= 1;
+				}
+			});
+
+			if (next_project_id <= total_number_of_projects) {
+				$(".next-project-navigation").attr("href", "gallery.html?id=" + (next_project_id));
 			} else {
 				$(".next-project-navigation").hide();
+			}
+
+			if (previous_project_id >= 1) {
+				$(".previous-project-navigation").attr("href", "gallery.html?id=" + (previous_project_id));
+			} else {
+				$(".previous-project-navigation").hide();
 			}
 
 			//hammer.js /gesture stuff goes here - - - 
@@ -119,7 +134,7 @@
 
 				if (gesture.direction == Hammer.DIRECTION_RIGHT){
 					console.log("right swipe detected")
-					var last_project = $(".previous-project-navigation").attr("href");
+					var last_project = $(".right-project-navigation").attr("href");
 					window.location = last_project;
 				}
 			});
