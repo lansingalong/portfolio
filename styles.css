@@ -62,6 +62,14 @@ header {
 	    flex: 1;
 }
 
+#nav-name a{
+	text-decoration: none;
+}
+
+#nav-name a:visited{
+	color:inherit;
+}
+
 #nav-links {
 	-ms-flex: 1;
 	    flex: 1;
